@@ -10,6 +10,7 @@ from sqlalchemy import or_
 from forms import UserAddForm, LoginForm, MessageForm, UserEditForm
 from models import db, connect_db, User, Message
 
+
 CURR_USER_KEY = "curr_user"
 
 app = Flask(__name__)
